@@ -4,7 +4,10 @@ public class RecSumDigits
 {
 	static int addDigits(int a)
 	{
-		
+		if(a<0)
+		{
+			a = a *-1;
+		}
 
 		if(String.valueOf(a).length() == 0)
 		{
