@@ -16,6 +16,6 @@ public class RZeroCount
 				return 1 + total(nums.subList(1,nums.size()));
 			}	
 		}
-	return 1;
+	return 0;
 	}
 }
